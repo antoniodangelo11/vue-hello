@@ -20,12 +20,12 @@
 </head>
 <body>
     <div id="app">
-        <h1 :class="title">{{ message }} O {{ message1 }}</h1>
         <div :class="container">
-            <button>PILLOLA ROSSA</button>
-            <button>PILLOLA BLU</button>
-        </div>
-        <div :class="container">
+            <h1 :class="title">{{ message }} <span :class="space">O</span> <span :class="title1">{{ message1 }}</span></h1>
+            <div>
+                <button @click="pillsRed">PILLOLA ROSSA</button>
+                <button @click="pillsBlu">PILLOLA BLU</button>
+            </div>
             <img :src="img" alt="">
         </div>
     </div>
