@@ -1,15 +1,15 @@
 const app = Vue.createApp({
     data() {
       return {
-        message: 'PILLOLA ROSSA',
-        message1: 'PILLOLA BLU',
-        img: 'img/Pills.webp',
-        title: 'text-danger',
-        title1: 'text-primary',
-        space: 'text-dark',
         container: 'text-center',
+        startMessage: 'PILLOLA ROSSA',
+        endMessage: 'PILLOLA BLU',
+        colorRed: 'text-danger',
+        space: 'text-dark',
+        colorBlu: 'text-primary',
         chooseVue: 'HAI SCELTO VUE.JS',
         chooseJs: 'HAI SCELTO VANILLA.JS',
+        img: 'img/Pills.webp',
       }
     },
     methods: {
